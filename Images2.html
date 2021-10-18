@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Images and CSS</title>
+    <style>
+
+        #rounded{
+            border-radius: 150px;
+        }
+        #Thumbnail{
+            width: 150px;
+            border-radius: 4px;
+            padding: 5px;
+            border: 1px solid #ddd
+        }
+        #responsive{
+            max-width: 100%;
+            height: auto;
+        }
+        #center{
+            display: block;
+            margin-left: auto;
+            Margin-right: auto;
+        }
+        div.polaroid{
+            width: 80%;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+            margin-bottom: 25px;
+        }
+        div.container{
+            text-align: center;
+            padding: 10px 20px;
+        }
+        #transparent{
+            opacity: .5;
+        }
+    </style>
+</head>
+<body>
+
+<div class="polaroid">
+    <img id="polaroid" src="_116681719_whatsubject.jpg" width="100%"/>
+    <div class="container">
+        It is cold outside!!!
+    </div>
+</div>
+
+<img id= transparent src="_116681719_whatsubject.jpg" height="549" width="976"/>
+<img id= center src="_116681719_whatsubject.jpg" height="200"/>
+<img id= responsive src="_116681719_whatsubject.jpg" height="200"/>
+<img id= rounded src="_116681719_whatsubject.jpg" height="200"/>
+<img id= Thumbnail src="_116681719_whatsubject.jpg"/>
+
+</body>
+
+</html>
