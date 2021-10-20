@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exaple Template</title>
+<style>
+    .container{
+        color: black;
+        background-color: white;
+        width: 80%;
+        margin: auto;
+    }
+    #header{
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 75px;
+        font-weight: bold;
+    }
+
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #555;
+        overflow: hidden;
+
+    }
+    li{
+        float: left;
+        border-right: 1px solid #bbb;
+
+    }
+    li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active){
+        background-color: #333;
+    }
+
+    .active{
+        background-color: chartreuse;
+    }
+    #Sidebar{
+        /*-background-color: hotpink;-*/
+        float: right;
+        height: 250px;
+</style>
+</head>
+<body style="background-color: brown">
+
+<div class="container">
+    <div class="row">
+    </div>
+        <div id="header">
+            Basic 2 column CSS template.
+        </div>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Socials</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula porttitor diam, eget varius dui ullamcorper at. Vivamus vestibulum commodo auctor. Aliquam fermentum suscipit neque, nec efficitur massa euismod lobortis. Curabitur in augue arcu. Pellentesque a risus eget est eleifend tincidunt vulputate eu odio. Sed mollis, nisi id iaculis facilisis, nisl dui consequat libero, ut hendrerit sem tortor at magna."
+</div>
+<div id="Sidebar">
+    Sidebar <br/>Ads<br/>Ads<br/>
+</div>
+
+</body>
+</html>
