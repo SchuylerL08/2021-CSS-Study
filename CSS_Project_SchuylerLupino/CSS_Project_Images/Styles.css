@@ -1,23 +1,12 @@
-body {
-    background-color: #dddddd;
-}
 
-.dropbutton{
 
+
+.navbar{
+    text-decoration: #111111;
 }
 
 .dropdown{
-
-
-    display: block;
-    color: yellow;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    vertical-align: center;
-
     display: inline-block;
-    max-height: 1px;
 }
 .dropdownContent{
     color: black;
@@ -31,12 +20,18 @@ body {
 }
 .dropdown:hover .dropdownContent{
     display: block;
+    overflow: visible;
 }
 
 
+
+body {
+    background-color: gray;
+}
+
 .container {
     color: black;
-    background-color: White;
+    background-color: white;
     width: 90%;
     margin: auto;
 }
@@ -44,7 +39,7 @@ body {
 #header {
     width: 100%;
     height: 100px;
-    background-color: cornflowerblue;
+    /*background-color: cyan;*/
     text-align: center;
     vertical-align: middle;
     font-size: 75px;
@@ -61,12 +56,13 @@ ul {
 
 li {
     float: left;
+    color: white;
     border-right: 1px solid #bbb;
 }
 
 li a {
     display: block;
-    color: yellow;
+    color: White;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -80,28 +76,17 @@ li a:hover:not(.active) {
     background-color: #04AA6D;
 }
 
-#column1 {
+#content {
     float: left;
-    width: 32%;
-    padding: 10px 10px 10px 10px;
-}
-#column2 {
-    float: left;
-    width: 32%;
-    padding: 10px 10px 10px 10px;
-}
-#column3 {
-    float: left;
-    width: 32%;
-    padding: 10px 10px 10px 10px;
+    width: 75%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .row:after{
     content: "";
     display: table;
     clear: both;
-}
-.row{
-
 }
 #sidebar {
 
@@ -110,10 +95,10 @@ li a:hover:not(.active) {
     text-align: center;
     padding: 20px;
     font-size: 25px;
-    background-color: cornflowerblue;
-    color: black;
+    background-color: blue;
+    color: white;
 }
-div#footer a {
-    color: black;
+div#footer a{
+    color: white;
     text-decoration: none;
 }
